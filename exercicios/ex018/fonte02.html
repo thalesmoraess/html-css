@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+        @font-face {
+            font-family: 'Old London';
+            src: url(fonts/OldLondon.ttf), url(fonts/Olondon_.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+            /*           
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+            */
+        body {
+            font-family: 'Biryani';
+        }
+
+        h1 {
+            font-family: 'Old London', Times, Serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at odio, quidem officiis deserunt porro. Voluptatibus architecto, magni itaque cum tempora quam id maiores, est sunt explicabo consequuntur soluta et!</p>
+</body>
+</html>
